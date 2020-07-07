@@ -21,6 +21,9 @@ It is important that we have Java 8 and not Java 11 when we are working with Spa
  7. Build.sbt has Scala version 2.12.0 and that’s installed as one of the global libraries in Intellij.
  ![scala-sdk-matches-sbt-scala-version](images/scala-sdk-matches-sbt-scala-version.png)
  
+ If all is setup correctly, you should be able to run tests in Intellij and see the awesome RED bar. :grin:
+ ![red-bar](images/red-bar.png)
+ 
 It might be helpful to use `jenv` if you need to keep multiple java versions.  
 
 ______________
